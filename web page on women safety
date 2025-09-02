@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Women Safety Web Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #e75480;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #ff69b4;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1556157382-97eda2d62296') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+
+    .hero h1 {
+      font-size: 3em;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      color: #e75480;
+      margin-bottom: 10px;
+    }
+
+    .emergency {
+      background-color: #ffe4e1;
+      padding: 20px;
+      border-left: 6px solid #e75480;
+    }
+
+    footer {
+      background-color: #e75480;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2em;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Women's Safety First</h1>
+    <p>Empowering women with knowledge, support, and action.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#tips">Safety Tips</a>
+    <a href="#resources">Resources</a>
+    <a href="#emergency">Emergency</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Your Safety Matters</h1>
+  </div>
+
+  <div class="container">
+
+    <section id="about" class="section">
+      <h2>About Us</h2>
+      <p>
+        Our mission is to ensure the safety and empowerment of women across all communities. This platform provides access to vital information, tools, and contacts for staying safe and taking action.
+      </p>
+    </section>
+
+    <section id="tips" class="section">
+      <h2>Safety Tips</h2>
+      <ul>
+        <li>Always share your location with a trusted friend or family member.</li>
+        <li>Avoid isolated areas, especially at night.</li>
+        <li>Keep emergency contacts easily accessible.</li>
+        <li>Use verified ride-sharing apps with safety features.</li>
+        <li>Trust your instincts — if something feels wrong, leave the situation.</li>
+      </ul>
+    </section>
+
+    <section id="resources" class="section">
+      <h2>Resources</h2>
+      <p>Helpful links and organizations:</p>
+      <ul>
+        <li><a href="https://ncw.nic.in/" target="_blank">National Commission for Women (India)</a></li>
+        <li><a href="https://www.shebox.nic.in/" target="_blank">SHe-Box (Sexual Harassment e-Box)</a></li>
+        <li><a href="https://www.unwomen.org/en" target="_blank">UN Women</a></li>
+        <li><a href="tel:1091">Women Helpline (India) – 1091</a></li>
+      </ul>
+    </section>
+
+    <section id="emergency" class="section emergency">
+      <h2>Emergency Contact</h2>
+      <p><strong>Call Now:</strong> <a href="tel:112">112 - All-in-One Emergency Helpline</a></p>
+      <p><strong>Email Support:</strong> support@womensafety.org</p>
+      <p><strong>Live Chat:</strong> Available 24/7 in the bottom-right corner</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Women Safety Initiative | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
